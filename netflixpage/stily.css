@@ -1,0 +1,172 @@
+body{
+    background: #000;
+    font-family: inherit;
+    color: white;
+}
+.bg_catalogo{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/c906271d-7184-4eec-83c9-b6d4c1a068ec/4dddaa85-5a1d-44af-ba88-97547adc2a8c/BR-pt-20231127-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-color: rgba(42, 35, 40, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    zoom: 1.1;
+}
+
+.entrar {
+    background-color: rgb(196, 24, 24);
+    border-radius: 4px;
+    color: white;
+    border: 0;
+    width: 70px;
+    height: 30px;
+}
+
+.netflix {
+    width: 200px;
+    height: auto;
+    filter: brightness(70%);
+}
+.cabecario {
+    display: flex;
+    justify-content: space-between;
+}
+.selecao {
+    height: 30px;
+    width: 150px;
+    border-radius: 4px;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.bg_catalogo .textos p{
+    margin-top: -10px;
+}
+
+.botoes{
+    margin-top: 20px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+}
+
+.login button{
+    background: rgb(196, 24, 24);
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    height: 53px;
+    width: 150px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: serif;
+}
+.login input{
+    border-color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    height: 50px;
+    width: 350px;
+    background: rgba(0, 0, 0, 0.395)
+
+    
+}
+
+.infantil {
+    background: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+
+.infantil .textos {
+    text-align:justify;
+}
+
+.perguntas {
+    color: white;
+    
+}
+
+.perguntas h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.perguntas h1 :hover{
+    background-color: #000;
+}
+
+.perguntas div {
+    background: #2d2d2d;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 25px;
+
+}
+
+.perguntas :hover{
+    background: #404040;
+}
+.perguntas h1 :hover{
+    background: #000;
+}
+
+.perguntas div p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+hr {
+    background-color:#2d2d2d;
+    height: 8px;
+    border-style: none;
+}
+
+.repeteco {
+    color: white;
+    text-align: center;
+    font-size: 26px;
+}
+
+footer {
+    color: rgb(143, 143, 143);
+    display: flex;
+    justify-content: space-evenly;
+}
+a {
+    color: rgb(143, 143, 143);
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li :hover{
+    color: rgb(218, 54, 54);
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+
