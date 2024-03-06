@@ -1,0 +1,36 @@
+.menu{
+    background-color: #3a0a6a;
+    border-radius: 12px;
+    width: 980px;
+    margin: 0 25px;
+    padding:30px;
+}
+
+.menu ul {
+    list-style-type: none;
+    text-align: center;
+
+}
+
+.menu ul li {
+    display: inline;
+    padding-right: 30px;
+    padding:30;
+    
+}
+.menu ul li a {
+    text-decoration: none; 
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    
+}
+
+.menu ul li a.ativo{
+    color: orange;
+}
+
+.menu ul li a:hover{
+    color:aquamarine
+}
